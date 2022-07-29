@@ -196,7 +196,7 @@
                 </div>
             </div>
 
-            <div class="d-sm-none d-md-none d-lg-flex mt-5 justify-content-center">
+            <div class="d-none d-lg-flex mt-5 justify-content-center">
                 <a class="btn btn-primary" src="" href="">See More Courses</a>
             </div>
             <div class="d-lg-none mt-5 d-flex justify-content-center">
@@ -210,12 +210,12 @@
         <!-- Optional Section 1 End -->
 
         <!-- Bonus Section -->
-        <section class="container bg-primary text-break d-flex align-items-center justify-content-center py-5 mt-5 flex-lg-row flex-column">
+        <section class="container bg-primary rounded-2 d-flex align-items-center justify-content-center py-5 mt-5 flex-lg-row flex-column">
             <div class="d-flex text-lg-start text-center text-white flex-column me-5">
                 <h2>Ready to join?</h2>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
             </div>
-            <a class="text-primary bg-white border border-0 px-4 py-2" src="" href="" data-bs-toggle="modal" data-bs-target="#bonusModal">Register Now</a>
+            <a class="text-primary bg-white border border-0 rounded-1 px-4 py-2" src="" href="" data-bs-toggle="modal" data-bs-target="#bonusModal">Register Now</a>
         </section>
 
         <!-- Modal -->
@@ -243,40 +243,53 @@
                 <h1>Frequently Asked Questions</h1>
                 <p class="mx-5 px-5 py-3">There are many variations of passages of available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the generators on the.</p>
             </div>
-            <div class="accordion" id="accordionExample">
+            <div class="accordion mt-5" id="accordionFAQ">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Accordion Item #1
+                      What are the differences between Flexbox and Grid?
                     </button>
                   </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionFAQ">
                     <div class="accordion-body">
-                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        The basic difference between CSS <strong>Grid Layout</strong> and <strong>Flexbox Layout</strong>  is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.
                     </div>
                   </div>
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Accordion Item #2
+                      What are the differences between Bootstrap & Tailwind?
                     </button>
                   </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionFAQ">
                     <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        <strong>Bootstrap</strong> comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit.
+                        <strong>Tailwind</strong> offers predesigned widgets to build a site from scratch with fast UI development. <strong>Tailwind</strong> CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness.Sites created using <strong>Bootstrap</strong> follow the generic pattern that makes them look identical.
                     </div>
                   </div>
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Accordion Item #3
+                      What's CSS box model?
                     </button>
                   </h2>
-                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionFAQ">
                     <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      CSS Box model is a model where every <strong>HTML</strong> element is considered as a box which has seperate attributes link margin, padding, borders etc.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      What's Semantic Tag?
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionFAQ">
+                    <div class="accordion-body">
+                      <strong>Semantic</strong> tags are those whose name are link human language. Whose names describe their purposes. <code> header aside footer main</code> are the examples of <strong>Semantic Tags</strong>. These are available from <strong>HTML 5.</strong>
                     </div>
                   </div>
                 </div>
@@ -306,10 +319,10 @@
                 <br>Sultanate of Oman<br>Privacy Ploicy  |   Terms of use</p>
         </div>
         <div class="d-flex justify-content-center align-items-center">
-            <i class="fa-brands fa-facebook text-white p-2"></i>
-            <i class="fa-brands fa-twitter text-white p-2"></i>
-            <i class="fa-brands fa-linkedin text-white p-2"></i>
-            <i class="fa-brands fa-tiktok text-white p-2"></i>
+            <a href="http://facebook.com" target="_blank"><i class="fa-brands fa-facebook text-white p-2"></i></a>
+            <a href="http://twitter.com" target="_blank"><i class="fa-brands fa-twitter text-white p-2"></i></a>
+            <a href="http://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin text-white p-2"></i></a>
+            <a href="http://tiktok.com" target="_blank"><i class="fa-brands fa-tiktok text-white p-2"></i></a>
         </div>
     </footer>
     <!-- footer section start -->
