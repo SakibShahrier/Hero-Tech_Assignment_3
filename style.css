@@ -5,6 +5,14 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.sliderbtn{
+    background-color: #289BDE;
+}
+
+.sliderbtn:hover{
+    background-color: none;
+}
+
 .drk{
     filter: brightness(50%);
 }
